@@ -1,0 +1,20 @@
+{
+    "name": "fannypack/jpesa",
+    "description": "laravel jpesa mobile money payment implementation",
+    "authors": [
+        {
+            "name": "Mpande Andrew",
+            "email": "andrewmvp007@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FannyPack\\JPesa\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/database": "~5.4",
+        "illuminate/support": "~5.4"
+    }
+}
