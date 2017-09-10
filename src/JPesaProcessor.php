@@ -56,6 +56,9 @@ class JPesaProcessor
         $this->setConfigurations();
     }
 
+    /**
+     * load configurations
+     */
     protected function setConfigurations()
     {
         $this->username = $this->app['config']['jpesa.username'];
