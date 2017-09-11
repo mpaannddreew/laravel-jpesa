@@ -1,6 +1,7 @@
 {
     "name": "fannypack/jpesa",
     "description": "laravel jpesa mobile money payment implementation",
+    "keywords": ["library", "laravel", "php", "payments", "mobile money", "jpesa"],
     "authors": [
         {
             "name": "Mpande Andrew",
