@@ -9,7 +9,7 @@ Note: You must have a valid JPesa account to use this library
 For more information visit [JPesa](https://secure.jpesa.com/welcome.php)
 
 ## Installation
-git https://github.com/mpaannddreew/laravel-jpesa.git
+composer require fannypack/jpesa
 
 Register service provider
 ```php
