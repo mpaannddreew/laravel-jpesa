@@ -25,8 +25,14 @@ After the service provider is registered run this command
 ```
 php artisan vendor:publish
 ```
-This command will create a copy of the library's config file and migrations into your code base <pre>jpesa.php</pre>
-
+This command will create a copy of the library's config file and migrations into your code base 
+```php
+jpesa.php
+```
+Run migrations
+```
+php artisan migrate
+```
 ## Environment setup
 The library loads configurations from the .env file in your application's root folder. These are the contents of jpesa.php
 ```
